@@ -6,7 +6,7 @@ At least one piece of content in every category
 
 Planned Features:
  - New Unit: Leg Router
- - New Turret: TBD
+ - New Turret: Bullet Router
  - New Ore: Router Ore
  - New Unit Factory: Router Unit Factory
  - New Drill: Ore Router
