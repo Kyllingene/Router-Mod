@@ -8,7 +8,7 @@ Planned Features:
  - New Unit: Leg Router
  - New Turret: Bullet Router
  - New Ore: Router Ore
- - New Unit Factory: Router Unit Factory
+ - New Unit Factory: Unit Router
  - New Drill: Ore Router
  - New Factory: Router Factory
  - New Melter: Router Smelter
