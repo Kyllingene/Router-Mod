@@ -1,0 +1,29 @@
+type: UnitFactory
+name: Unit Router
+description: Makes router units.
+
+size: 5
+
+plans: [
+	{
+		unit: leg-router
+		requirements: [
+			router/200
+			silicon/400
+			copper/100
+			lead/100
+			graphite/200
+			thorium/100
+		]
+		time: 10000
+	}
+]
+
+requirements: [
+	router/2000
+	copper/2000
+	lead/2000
+	silicon/2000
+] 
+category: units
+research: ground-factory

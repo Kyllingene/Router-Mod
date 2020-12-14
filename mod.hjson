@@ -1,0 +1,11 @@
+name: "router-mod"
+displayName: "[grey]Router[] Mod"
+author: "Kyllingene"
+<<<<<<< HEAD
+description: "A mod all about routers."
+version: "1.0"
+=======
+description: "much ruoter very ruoter"
+version: "1.2"
+>>>>>>> 21b573b0adfd7c03ec08b599eaa99879ff948901
+minGameVersion: "105"

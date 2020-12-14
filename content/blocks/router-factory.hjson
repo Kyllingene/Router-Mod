@@ -1,0 +1,42 @@
+name: Router Factory
+description: Where the routers are manufactured.
+
+type: GenericCrafter
+size: 2
+tier: 1
+liquidCapacity: 50
+
+consumes: {
+	power: 4
+	
+	items: {
+		items: [
+			graphite/2
+			silicon/2
+			copper/2
+			lead/2
+		]
+	}
+}
+
+outputItem: {
+	item: item-router
+	amount: 1
+}
+
+hasPower: true
+hasLiquids: true
+
+craftTime: 30
+updateEffect: smeltsmoke
+
+requirements: [
+	copper/420
+	lead/420
+	graphite/420
+]
+
+category: crafting
+research: item-router
+idleSound: respawning
+idleSoundVolume: 0.5

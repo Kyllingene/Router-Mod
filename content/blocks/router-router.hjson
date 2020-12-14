@@ -1,0 +1,42 @@
+name: Router Router
+description: Turns molten router into raw resources.
+
+type: Separator
+size: 2
+tier: 1
+liquidCapacity: 50
+
+consumes: {
+	power: 5
+	
+	liquid: {
+		liquid: liquid-router
+		amount: 0.13
+		optional: false
+	}
+}
+
+results: [
+	copper/3
+	lead/3
+	graphite/3
+	silicon/1
+]
+
+hasPower: true
+hasLiquids: true
+
+craftTime: 8
+updateEffect: smeltsmoke
+
+requirements: [
+	copper/420
+	lead/420
+	graphite/420
+	silicon/420
+]
+
+category: crafting
+research: router
+idleSound: respawning
+idleSoundVolume: 0.5

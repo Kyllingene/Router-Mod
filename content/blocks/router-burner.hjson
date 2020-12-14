@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Router Burner
+description: Burn routers for power.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 30
+powerProduction: 5
+consumes: {
+  items: {
+    items: [
+      router/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  router/420
+  copper/420
+  lead/420
+]
+category: power
+research: router
