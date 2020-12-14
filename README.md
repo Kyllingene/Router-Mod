@@ -1,5 +1,5 @@
 # Router Mod
-A fully-fledged mod for Mindustry. Upgrade of Kyllingene/ruoter-legacy
+A [INDEV] fully-fledged mod for Mindustry. Upgrade of Kyllingene/ruoter-legacy
 
 #### For Mindustry v6.0
 At least one piece of content in every category
