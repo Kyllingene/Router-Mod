@@ -2,7 +2,7 @@
 A [INDEV] fully-fledged mod for Mindustry. Upgrade of Kyllingene/ruoter-legacy
 
 #### For Mindustry v6.0
-At least one piece of content in every category
+Plan: at least one piece of content in every category
 
 Planned Features:
  - New Unit: Leg Router
@@ -18,3 +18,4 @@ Planned Features:
  - New Item: Router
  - New Liquid: Molten Router
  - New Processor: Command Router
+ - New Mender: Health Router
