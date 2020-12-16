@@ -20,3 +20,4 @@ Implemented:
 
 Planned Features:
  - New Mender: Health Router
+ - New Drill: Ore Router
