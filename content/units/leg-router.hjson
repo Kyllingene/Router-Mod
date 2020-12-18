@@ -3,7 +3,6 @@ name: Leg Router
 description: A router... with legs?
 speed: 0.2
 health: 2000
-inaccuracy: 20
 
 rotateSpeed: 10.0
 commandLimit: 20
@@ -25,9 +24,11 @@ weapons: [
 		name: router-gun
 		length: 2
 		ejectEffect: massiveExplosion
-		
+		inaccuracy: 15
+
+		reload: 10
 		rotate: true
-		
+
 		bullet: {
 			speed: 2
 			lifetime: 100
@@ -45,39 +46,16 @@ weapons: [
 				pierce: true
 			}
 		}
-		reload: 10
-	},
-	{
-		name: router-gun
-		length: 2
-		
-		rotate: true
-		
-		bullet: {
-			speed: 2
-			lifetime: 100
-			damage: 200
-			pierce: true
-			
-			fragBullets: 2
-			fragBullet: {
-				speed: 0.5
-				lifetime: 200
-				damage: 20
-				splashDamage: 20
-				splashDamageRadius: 20
-				status: burning
-				pierce: true
-			}
-		}
-		reload: 10
 	},
 		{
 		name: router-gun
 		length: 2
-		
+		ejectEffect: massiveExplosion
+		inaccuracy: 15
+
+		reload: 10
 		rotate: true
-		
+
 		bullet: {
 			speed: 2
 			lifetime: 100
@@ -95,14 +73,16 @@ weapons: [
 				pierce: true
 			}
 		}
-		reload: 10
 	},
 		{
 		name: router-gun
 		length: 2
-		
+		ejectEffect: massiveExplosion
+		inaccuracy: 15
+
+		reload: 10
 		rotate: true
-		
+
 		bullet: {
 			speed: 2
 			lifetime: 100
@@ -120,6 +100,32 @@ weapons: [
 				pierce: true
 			}
 		}
+	},
+		{
+		name: router-gun
+		length: 2
+		ejectEffect: massiveExplosion
+		inaccuracy: 15
+
 		reload: 10
+		rotate: true
+
+		bullet: {
+			speed: 2
+			lifetime: 100
+			damage: 200
+			pierce: true
+			
+			fragBullets: 2
+			fragBullet: {
+				speed: 0.5
+				lifetime: 200
+				damage: 20
+				splashDamage: 20
+				splashDamageRadius: 20
+				status: burning
+				pierce: true
+			}
+		}
 	}
 ]

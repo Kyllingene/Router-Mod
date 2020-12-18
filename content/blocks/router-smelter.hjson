@@ -34,6 +34,6 @@ requirements: [
 ]
 
 category: crafting
-research: router
+research: item-router
 idleSound: respawning
 idleSoundVolume: 0.5

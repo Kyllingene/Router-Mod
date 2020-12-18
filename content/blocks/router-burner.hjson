@@ -9,13 +9,13 @@ powerProduction: 5
 consumes: {
   items: {
     items: [
-      router/1
+      item-router/1
     ]
     optional: true
   }
 }
 requirements: [
-  router/420
+  item-router/420
   copper/420
   lead/420
 ]

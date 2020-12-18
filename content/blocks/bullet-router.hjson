@@ -1,0 +1,40 @@
+type: ItemTurret
+name: Bullet Router
+description: Rout those bullets somewhere useful.
+
+inaccuracy: 20.0
+shots: 2
+spread: 10
+reload: 10
+maxAmmo: 100
+range: 200
+
+health: 200
+size: 2
+
+ammoTypes: {
+	item-router: {
+		lifetime: 2000
+		speed: 3
+		
+		damage: 15
+	}
+	
+	copper: {
+		lifetime: 2000
+		speed: 3
+		
+		damage: 10
+		pierce: true
+	}
+}
+
+requirements: [
+	item-router/20
+	copper/200
+	lead/200
+	graphite/20
+]
+
+category: turret
+research: salvo

@@ -3,5 +3,5 @@ name: Router
 description: Router.
 hardness: 3
 cost: 5
-color: 242424
-research: copper
+color: 808080
+research: router

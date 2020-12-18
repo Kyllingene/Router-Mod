@@ -1,0 +1,17 @@
+type: Router
+speed: 12.0
+size: 3
+
+health: 100
+
+name: Big Router
+description: A really big router.
+
+requirements: [
+	item-router/4
+	copper/10
+	lead/10
+]
+
+category: distribution
+research: distributor

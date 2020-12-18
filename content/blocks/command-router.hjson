@@ -1,0 +1,21 @@
+type: LogicBlock
+name: Command Router
+description: An expensive proces- I mean router.
+
+instructionsPerTick: 5
+maxInstructionScale: 6
+range: 120.0
+
+size: 1
+health: 60
+
+requirements: [
+	copper/500
+	lead/500
+	silicon/200
+	graphite/300
+	item-router/420
+]
+
+research: logic-processor
+category: logic
